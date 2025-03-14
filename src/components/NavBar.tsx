@@ -10,7 +10,7 @@ const NavBar = () => {
         data-aoss="fade-down"
         data-aoss-duration="1200"
       >
-        <div className="w-full  sborder-[10px] bg-[#151515CC] border-[1px] border-[#33888] backdrop-blur-[4px] backdrop-invert rounded-full py-[16px] px-[16px] md:px-[32px] flex justify-between ">
+        <div className="w-full  sborder-[10px] bg-[#151515CC] border-[1px] border-[#33888] backdrop-blur-[4px] backdrop-invert rounded-full py-[16px] px-[16px] kkmd:px-[32px] flex justify-between ">
           <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0 h-full ">
             <img
               className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[28px] smax-w-[38px]"

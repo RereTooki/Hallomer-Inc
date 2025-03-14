@@ -74,7 +74,7 @@ const AboutMe = () => {
             </div>
             <div
               className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px]"
-              data-aos="fade-rigtt"
+              data-aos="fade-right"
               data-aos-duration="700"
             >
               <img

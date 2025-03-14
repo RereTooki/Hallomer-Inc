@@ -5,6 +5,8 @@ import Landing from "./Landing";
 import AboutMe from "./AboutMe";
 import RecentWorks from "./RecentWorks";
 import Services from "./Services";
+import Connect from "./Connect";
+import Footer from "./Footer";
 
 const Homepage = () => {
   return (
@@ -15,6 +17,8 @@ const Homepage = () => {
         <AboutMe />
         <RecentWorks />
         <Services />
+        <Connect />
+        <Footer />
       </div>
       {/* <p
         className="text-6xl font-bold interFont underline text-center"

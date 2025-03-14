@@ -87,7 +87,7 @@ const Services = () => {
                 loop
                 autoPlay
                 muted
-                className="w-full h-full object-cover shadow-2xl dark:shadow-gray-600 hover:cursor-pointer"
+                className="w-full h-full object-cover shadow-2xl dark:shadow-gray-600 hover:cursor-pointer rounded-[10px]"
               />
 
               {/* Text */}

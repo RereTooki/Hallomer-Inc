@@ -7,37 +7,44 @@ import vid3 from "../assets/video/vid3.mp4";
 type Project = {
   id: number;
   title: string;
-  description: string;
   video: string;
-  year: string;
 };
 
 const projectData: Project[] = [
   {
     id: 1,
-    title: "A Nighttime Journey",
-    description: "Urban Videography",
+    title: "Video Editing",
     video: vid1,
-    year: "2024",
   },
   {
     id: 2,
-    title: "Twilight Dance",
-    description: "Art Film",
-    video: vid1,
-    year: "2023",
+    title: "Professional Disc Jockey",
+    video: vid2,
   },
 
   {
     id: 3,
-    title: "Crossing Time",
-    description: "Art Film",
+    title: "Event Project Management",
     video: vid3,
-    year: "2024",
+  },
+  {
+    id: 4,
+    title: "Creative Director",
+    video: vid2,
+  },
+  {
+    id: 5,
+    title: "Restaurant Management",
+    video: vid3,
+  },
+  {
+    id: 6,
+    title: "Business Consultant",
+    video: vid2,
   },
 ];
 
-const RecentWorks = () => {
+const Services = () => {
   return (
     <>
       <div className="Sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111]">
@@ -47,10 +54,10 @@ const RecentWorks = () => {
             data-aoss="fade-down"
             data-aoss-duration="1200"
           >
-            Recent Works
+            Services
           </h2>
           <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center">
-            <h3 className="interFont text-[12px] ">ALL RECENT WORKS</h3>
+            <h3 className="interFont text-[12px] ">GET IN TOUCH</h3>
             <div className="sborder-4 w-[9px] h-[9px] ">
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
@@ -84,14 +91,10 @@ const RecentWorks = () => {
               />
 
               {/* Text */}
-              <div className="sborder-4 absolute w-full bottom-2 interFont px-2">
+              <div className="sborder-4 absolute w-full top-2 interFont px-2">
                 <h3 className="text-[16px] sborder-4 font-medium mix-blend-difference">
                   {project.title}
                 </h3>
-                <div className="flex justify-between text-[12px] sborder-4 mix-blend-difference">
-                  <p className="">{project.description}</p>
-                  <p className="">{project.year}</p>
-                </div>
               </div>
             </div>
           ))}
@@ -101,4 +104,4 @@ const RecentWorks = () => {
   );
 };
 
-export default RecentWorks;
+export default Services;

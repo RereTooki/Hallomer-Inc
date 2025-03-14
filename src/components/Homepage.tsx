@@ -3,6 +3,7 @@ import "../App.css";
 import NavBar from "./NavBar";
 import Landing from "./Landing";
 import AboutMe from "./AboutMe";
+import RecentWorks from "./RecentWorks";
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
         <NavBar />
         <Landing />
         <AboutMe />
+        <RecentWorks />
       </div>
       {/* <p
         className="text-6xl font-bold interFont underline text-center"

@@ -15,7 +15,7 @@ const Landing = () => {
         data-aoss="zoom-in"
         data-aoss-duration="1200"
       >
-        <div className="relative sborder-4 border-white border-double w-[88%] h-fit mx-12 select-none">
+        <div className="relative sborder-4 border-white  w-[88%] h-fit mx-12 select-none">
           <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mxm-12 kw-full h-fit absolute top-[-15px] xmd:top-[-25px] z-20">
             <img
               className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"

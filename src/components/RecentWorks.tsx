@@ -65,7 +65,7 @@ const RecentWorks = () => {
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`relative border-4 rounded-[10px] border-white/50 border-double h-[200px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] mb-[32px]  ${
+              className={`relative sborder-4 rounded-[10px] border-white/50  h-[200px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] mb-[32px]  ${
                 index % 2 === 0
                   ? "sm:flex-row border-r-2 tab:border-r-4 "
                   : "sm:flex-row-reverse border-l-2 tab:border-l-4 "

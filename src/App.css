@@ -21,3 +21,9 @@
 .interFont {
   font-family: "Inter", sans-serif;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

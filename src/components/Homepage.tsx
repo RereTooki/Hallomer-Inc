@@ -1,13 +1,15 @@
 import React from "react";
 import "../App.css";
+import NavBar from "./NavBar";
+import Landing from "./Landing";
 
 const Homepage = () => {
   return (
     <>
-      <h1 className="text-6xl font-bold font-tusker underline text-center">
-        {" "}
-        Hallomer
-      </h1>
+      <div className="bg-[#111] border-4s">
+        <NavBar />
+        <Landing />
+      </div>
       {/* <p
         className="text-6xl font-bold interFont underline text-center"
         data-aos="zoom-in"

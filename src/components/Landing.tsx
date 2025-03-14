@@ -1,7 +1,13 @@
 import React from "react";
 import flags from "../assets/images/FLAGS.png";
+import arrDown from "../assets/icons/arrDown.svg";
 
 const Landing = () => {
+  const email = "bookhotdjhallomer@gmail.com"; // Replace with the recipient's email address
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}`;
+  };
   return (
     <>
       <div className="text-white h-[100vh] flex flex-col items-center justify-center sborder-4 px-4">
@@ -10,7 +16,7 @@ const Landing = () => {
             <img
               className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
               src={flags}
-              alt="background-img"
+              alt="flags"
             />
           </div>
         </div>
@@ -23,6 +29,24 @@ const Landing = () => {
           Strategic Planning, Disk Jockeying, Sales Representative, Managing
           Director, Creative Director, and Front Desk Assistant.
         </p>
+      </div>
+      <div className="sborder-4 text-white fixed bottom-6 px-4 w-full flex justify-between interFont items-center">
+        <div className="sborder-2 flex flex-col text-[12px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]">
+          <p>Get in touch at</p>
+          <p
+            className="font-semibold transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
+            onClick={handleEmailClick}
+          >
+            bookhotdjhallomer@gmail.com
+          </p>
+        </div>
+        <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0 w-[32px] h-[32px] animate-bounce">
+          <img
+            className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+            src={arrDown}
+            alt="down arrows"
+          />
+        </div>
       </div>
     </>
   );

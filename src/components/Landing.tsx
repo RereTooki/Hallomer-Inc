@@ -15,19 +15,19 @@ const Landing = () => {
         data-aoss="zoom-in"
         data-aoss-duration="1200"
       >
-        <div className="relative sborder-4 border-white  w-[88%] h-fit mx-12 select-none">
-          <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mxm-12 kw-full h-fit absolute top-[-15px] xmd:top-[-25px] z-20">
+        <div className="srelative bsorder-4 border-white  w-[88%] h-fit mx-12 select-none">
+          <div className=" sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mxm-12 kw-full h-fit sabsolute top-[-15px] xmd:top-[-25px] z-30">
             <img
-              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
+              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] relative bottom-[-20px] z-40"
               src={flags}
               alt="flags"
             />
           </div>
         </div>
-        <h1 className="sborder-4 font-tusker text-[18vw] xmd:stext-[16vw] swhitespace-nowrap transition ease-in-out duration-500 delay-10 cursor-pointer shover:scale-[1.04] w-full text-center border-white/20 select-none ">
+        <h1 className="sborder-4 font-tusker text-[18vw] xmd:stext-[16vw] swhitespace-nowrap transition ease-in-out duration-500 delay-10 cursor-pointer shover:scale-[1.04] w-full text-center border-white/20 select-none relative bottom-24 z-10 ">
           EDRISS HALLOMER
         </h1>
-        <p className="interFont sborder-4 text-sm text-center relative top-8 ">
+        <p className="interFont sborder-4 text-sm text-center relative bottom-20 ">
           A dynamic and multifaceted professional with over six years of
           experience spanning various roles including Event Project Management,
           Strategic Planning, Disk Jockeying, Sales Representative, Managing

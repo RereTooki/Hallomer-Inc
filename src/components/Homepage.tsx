@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import NavBar from "./NavBar";
 import Landing from "./Landing";
+import AboutMe from "./AboutMe";
 
 const Homepage = () => {
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
       <div className="bg-[#111] border-4s">
         <NavBar />
         <Landing />
+        <AboutMe />
       </div>
       {/* <p
         className="text-6xl font-bold interFont underline text-center"

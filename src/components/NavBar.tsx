@@ -8,7 +8,7 @@ const NavBar = () => {
       <div
         className="fixed w-full text-white flex justify-center items-center transition ease-in-out duration-500 delay-10 py-6 px-4 sborder-4 z-30 select-none "
         data-aos="fade-down"
-        data-aos-duration="700"
+        data-aos-duration="1200"
       >
         <div className="w-full  sborder-[10px] bg-[#151515CC] border-[1px] border-[#33888] backdrop-blur-[20px] rounded-full py-[16px] px-[16px] md:px-[32px] flex justify-between ">
           <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0 w-[36%] h-full ">

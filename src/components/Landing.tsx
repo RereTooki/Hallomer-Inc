@@ -13,7 +13,7 @@ const Landing = () => {
       <div
         className="text-white h-[100vh] flex flex-col items-center justify-center sborder-4 px-4 selection:bg-white selection:text-[#111]"
         data-aos="zoom-in"
-        data-aos-duration="700"
+        data-aos-duration="1200"
       >
         <div className="relative sborder-4 border-white border-double w-[88%] h-fit mx-12 select-none">
           <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] mxm-12 kw-full h-fit absolute top-[-10px] xmd:top-[-25px] z-20">
@@ -37,7 +37,7 @@ const Landing = () => {
       <div
         className="relative selection:bg-white selection:text-[#111]"
         data-aos="fade-up"
-        data-aos-duration="700"
+        data-aos-duration="1200"
       >
         <div className="sborder-4 text-white absolute bottom-6 px-4 w-full flex justify-between interFont items-center">
           <div className="sborder-2 flex flex-col text-[12px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]">

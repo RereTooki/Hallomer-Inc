@@ -11,14 +11,14 @@ const AboutMe = () => {
         <h2
           className="font-tusker text-[32px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
           data-aos="fade-down"
-          data-aos-duration="700"
+          data-aos-duration="1200"
         >
           About Me
         </h2>
         <p
           className="interFont text-[12px] text-justify"
           data-aos="zoom-in"
-          data-aos-duration="700"
+          data-aos-duration="1200"
         >
           Hi, I'm Idris Oladeinde Adeyemi, also known as Edriss Hallomer! 🎧
           With over six years of dynamic experience in the entertainment and
@@ -29,7 +29,7 @@ const AboutMe = () => {
         <p
           className="interFont text-[12px] text-justify"
           data-aos="zoom-in"
-          data-aos-duration="700"
+          data-aos-duration="1200"
         >
           As the Managing Director of Bangees Café, I've led a team of 20+,
           improved operations, and increased our revenue by 25%. Outside the
@@ -42,7 +42,7 @@ const AboutMe = () => {
         <p
           className="interFont text-[12px] text-justify"
           data-aos="zoom-in"
-          data-aos-duration="700"
+          data-aos-duration="1200"
         >
           Beyond spinning tracks, I’m also skilled in event project management,
           strategic planning, and creative direction. My expertise allows me to
@@ -53,7 +53,7 @@ const AboutMe = () => {
         <p
           className="interFont text-[12px] text-justify"
           data-aos="zoom-in"
-          data-aos-duration="700"
+          data-aos-duration="1200"
         >
           Driven by passion, creativity, and strategic thinking, I’m here to
           elevate your events with unmatched energy and professionalism. Let’s
@@ -64,7 +64,7 @@ const AboutMe = () => {
             <div
               className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px]"
               data-aos="fade-left"
-              data-aos-duration="700"
+              data-aos-duration="1200"
             >
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] rounded-lg"
@@ -75,7 +75,7 @@ const AboutMe = () => {
             <div
               className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px]"
               data-aos="fade-right"
-              data-aos-duration="700"
+              data-aos-duration="1200"
             >
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] rounded-lg"
@@ -88,7 +88,7 @@ const AboutMe = () => {
             <div
               className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px]"
               data-aos="fade-up"
-              data-aos-duration="700"
+              data-aos-duration="1200"
             >
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] rounded-lg"
@@ -99,7 +99,7 @@ const AboutMe = () => {
             <div
               className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px]"
               data-aos="fade-down"
-              data-aos-duration="700"
+              data-aos-duration="1200"
             >
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] rounded-lg"

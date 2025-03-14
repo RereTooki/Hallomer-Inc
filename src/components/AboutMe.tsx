@@ -7,7 +7,7 @@ import port4 from "../assets/images/port4.png";
 const AboutMe = () => {
   return (
     <>
-      <div className="border-4 border-white/50 text-white flex flex-col py-14 px-4 gap-8 selection:bg-white selection:text-[#111]">
+      <div className="sborder-4 border-white/50 text-white flex flex-col py-14 px-4 gap-8 selection:bg-white selection:text-[#111]">
         <h2
           className="font-tusker text-[32px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
           data-aos="fade-down"

@@ -14,8 +14,8 @@ const Homepage = () => {
       </div>
       {/* <p
         className="text-6xl font-bold interFont underline text-center"
-        data-aos="zoom-in"
-        data-aos-duration="500"
+        data-aoss="zoom-in"
+        data-aoss-duration="500"
       >
         ssss rere
       </p> */}

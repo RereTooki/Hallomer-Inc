@@ -24,14 +24,14 @@ const projectData: Project[] = [
     id: 2,
     title: "Twilight Dance",
     description: "Art Film",
-    video: vid2,
+    video: vid1,
     year: "2023",
   },
 
   {
     id: 3,
     title: "Crossing Time",
-    description: "Art Film.",
+    description: "Art Film",
     video: vid3,
     year: "2024",
   },
@@ -84,21 +84,14 @@ const RecentWorks = () => {
               />
 
               {/* Text */}
-              <div
-                className={`border-4 absolute bottom-2 ${
-                  index % 2 === 0
-                    ? "tab:text-justify lg:text-left"
-                    : "tab:text-right lg:text-left"
-                }`}
-              >
-                <h3
-                  className={`text-3xl  font-bold font-eros border-4 ${
-                    index % 2 === 0 ? "text-left" : "tab:text-rights"
-                  }`}
-                >
+              <div className="sborder-4 absolute w-full bottom-2 interFont px-2">
+                <h3 className="text-[16px] sborder-4 font-medium mix-blend-difference">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 border-4">{project.description}</p>
+                <div className="flex justify-between text-[12px] sborder-4 mix-blend-difference">
+                  <p className="">{project.description}</p>
+                  <p className="">{project.year}</p>
+                </div>
               </div>
             </div>
           ))}

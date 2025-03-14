@@ -20,7 +20,7 @@ const NavBar = () => {
           </div>
           <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0 w-[5.5%]">
             <img
-              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[28px] smax-w-[38px]"
+              className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[20px] smax-w-[38px]"
               src={sidebar}
               alt="sidebar"
             />

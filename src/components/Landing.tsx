@@ -17,8 +17,8 @@ const Landing = () => {
         data-aoss="zoom-in"
         data-aoss-duration="1200"
       >
-        <div className="sborder-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[88%] h-fit mx-12 select-none w-fitd h-fit z-20">
-          <img className="w-fit h-fit" src={flagsS} alt="flags" />
+        <div className="border-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] w-[88%]s mx-12 select-none w-fit h-min z-20">
+          <img className="w-fit h-fit" src={flagsL} alt="flags" />
         </div>
 
         {/* <h1 className="sborder-4 font-tusker text-[18vw] xmd:stext-[16vw] swhitespace-nowrap transition ease-in-out duration-500 delay-10 cursor-pointer shover:scale-[1.04] w-full text-center border-white/20 select-none ">

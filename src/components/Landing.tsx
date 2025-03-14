@@ -11,7 +11,7 @@ const Landing = () => {
   return (
     <>
       <div
-        className="text-white h-[100vh] flex flex-col items-center justify-center border-4 px-4 selection:bg-white selection:text-[#111]"
+        className="text-white h-dvh flex flex-col items-center justify-center border-4 px-4 selection:bg-white selection:text-[#111]"
         data-aoss="zoom-in"
         data-aoss-duration="1200"
       >

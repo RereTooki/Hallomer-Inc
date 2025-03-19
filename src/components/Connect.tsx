@@ -36,7 +36,7 @@ const Connect = () => {
     <>
       <div className="sborder-4 border-white/50 text-white flex flex-col items-center pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-0 lg:px-12">
         <h2
-          className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] sborder-4 w-[64%] text-center tracking-wide"
+          className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[90px] sborder-4 w-[64%] text-center tracking-wide"
           data-aos="fade-down"
           data-aos-duration="1200"
         >

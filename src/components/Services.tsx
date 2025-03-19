@@ -50,7 +50,7 @@ const Services = () => {
       <div className="sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-0 lg:px-12">
         <div className="flex justify-between sborder-4 items-end">
           <h2
-            className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
+            className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[90px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
             data-aos="fade-down"
             data-aos-duration="1200"
           >

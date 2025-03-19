@@ -86,7 +86,7 @@ const Services = () => {
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[340px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]   smb-[32px]  lg:border-white lg:w-[48%]s grow ${
+              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[280px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]   smb-[32px]  lg:border-white lg:w-[48%]s grow ${
                 [1, 4, 5].includes(project.id) ? "lg:w-[60%]" : ""
               }   ${[2, 3, 6].includes(project.id) ? "lg:w-[36%]" : ""} ${
                 index % 2 === 0

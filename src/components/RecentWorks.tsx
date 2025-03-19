@@ -100,7 +100,7 @@ const RecentWorks = () => {
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[310px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]  smb-[32px]  lg:border-white lg:w-[48%] grow  ${
+              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[280px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]  smb-[32px]  lg:border-white lg:w-[48%] grow  ${
                 index % 2 === 0
                   ? "sm:flex-row border-r-2 tab:border-r-4 lg:border-0 "
                   : "sm:flex-row-reverse border-l-2 tab:border-l-4 lg:border-0 "

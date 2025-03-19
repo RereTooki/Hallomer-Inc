@@ -11,10 +11,10 @@ import port4L from "../assets/images/port4L.png";
 const AboutMe = () => {
   return (
     <>
-      <div className="sborder-4 border-white/50 text-white flex flex-col py-14 lg:pb-52 xxl:pb-52 px-4 lg:px-12 gap-8 selection:bg-white selection:text-[#111]">
+      <div className="sborder-4 border-white/50 text-white flex flex-col py-14 lg:pb-56 xxl:pb-52 px-4 lg:px-12 gap-8 selection:bg-white selection:text-[#111]">
         <div className=" flex flex-col lg:flex-row lg:gap-6 gap-8 selection:bg-white selection:text-[#111]">
           <h2
-            className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[120px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 lg:whitespace-nowrap w-fit"
+            className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 lg:whitespace-nowrap w-fit"
             data-aoss="fade-down"
             data-aoss-duration="1200"
           >

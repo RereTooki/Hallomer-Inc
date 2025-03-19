@@ -35,22 +35,45 @@ const projectData: Project[] = [
     video: vid3,
     year: "2024",
   },
+  {
+    id: 4,
+    title: "Surf and Soar",
+    description: "Drone Videography",
+    video: vid3,
+    year: "2018",
+  },
+  {
+    id: 5,
+    title: "Ballet in the Ruins",
+    description: "Art Videography",
+    video: vid3,
+    year: "2024",
+  },
+  {
+    id: 6,
+    title: "Street Hoops",
+    description: "Sports Videography",
+    video: vid3,
+    year: "2019",
+  },
 ];
 
 const RecentWorks = () => {
   return (
     <>
-      <div className="Sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111]">
+      <div className="sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-6 lg:pb-52s sxxl:pb-52 lg:px-12">
         <div className="flex justify-between sborder-4 items-end">
           <h2
-            className="font-tusker text-[32px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
+            className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
             data-aoss="fade-down"
             data-aoss-duration="1200"
           >
             Recent Works
           </h2>
           <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center">
-            <h3 className="interFont text-[12px] ">ALL RECENT WORKS</h3>
+            <h3 className="interFont text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]">
+              ALL RECENT WORKS
+            </h3>
             <div className="sborder-4 w-[9px] h-[9px] ">
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
@@ -60,15 +83,15 @@ const RecentWorks = () => {
             </div>
           </div>
         </div>
-        <div className="border-4s">
+        <div className="sborder-4 border-double flex flex-col gap-[32px] lg:gap-4 lg:flex-row lg:flex-wrap">
           {" "}
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`relative sborder-4 rounded-[10px] border-white/50  h-[200px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] mb-[32px]  ${
+              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:,ax-h-[340px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]  smb-[32px]  lg:border-white lg:w-[49%]  ${
                 index % 2 === 0
-                  ? "sm:flex-row border-r-2 tab:border-r-4 "
-                  : "sm:flex-row-reverse border-l-2 tab:border-l-4 "
+                  ? "sm:flex-row border-r-2 tab:border-r-4 lg:border-0 "
+                  : "sm:flex-row-reverse border-l-2 tab:border-l-4 lg:border-0 "
               }`}
               data-aoss={index % 2 === 0 ? "fade-right" : "fade-left"} // AOS animations
               data-aoss-duration="900"
@@ -80,11 +103,11 @@ const RecentWorks = () => {
                 loop
                 autoPlay
                 muted
-                className="w-full h-full object-cover shadow-2xl dark:shadow-gray-600 hover:cursor-pointer rounded-[10px]"
+                className="w-full h-full object-cover shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none hover:cursor-pointer rounded-[10px] "
               />
 
               {/* Text */}
-              <div className="sborder-4 absolute w-full bottom-2 interFont px-2">
+              <div className="sborder-4 absolute w-full bottom-2 interFont px-2 lg:px-4">
                 <h3 className="text-[16px] sborder-4 font-medium mix-blend-difference">
                   {project.title}
                 </h3>

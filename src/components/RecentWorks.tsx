@@ -61,7 +61,7 @@ const projectData: Project[] = [
 const RecentWorks = () => {
   return (
     <>
-      <div className="sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-6 lg:pb-52s sxxl:pb-52 lg:px-12">
+      <div className="sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-6 lg:px-12">
         <div className="flex justify-between sborder-4 items-end">
           <h2
             className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
@@ -70,7 +70,7 @@ const RecentWorks = () => {
           >
             Recent Works
           </h2>
-          <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center">
+          <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center lg:mr-4 xxxl:mr-8">
             <h3 className="interFont text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]">
               ALL RECENT WORKS
             </h3>
@@ -88,7 +88,7 @@ const RecentWorks = () => {
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:,ax-h-[340px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]  smb-[32px]  lg:border-white lg:w-[49%]  ${
+              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[340px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]  smb-[32px]  lg:border-white lg:w-[48%]  ${
                 index % 2 === 0
                   ? "sm:flex-row border-r-2 tab:border-r-4 lg:border-0 "
                   : "sm:flex-row-reverse border-l-2 tab:border-l-4 lg:border-0 "

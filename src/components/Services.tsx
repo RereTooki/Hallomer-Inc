@@ -47,17 +47,19 @@ const projectData: Project[] = [
 const Services = () => {
   return (
     <>
-      <div className="Sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111]">
+      <div className="sborder-4 border-white/50 text-white flex flex-col pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-0 lg:px-12">
         <div className="flex justify-between sborder-4 items-end">
           <h2
-            className="font-tusker text-[32px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
+            className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
             data-aoss="fade-down"
             data-aoss-duration="1200"
           >
             Services
           </h2>
-          <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center">
-            <h3 className="interFont text-[12px] ">GET IN TOUCH</h3>
+          <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center lg:mr-4 xxxl:mr-8">
+            <h3 className="interFont text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px] ">
+              GET IN TOUCH
+            </h3>
             <div className="sborder-4 w-[9px] h-[9px] ">
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
@@ -67,16 +69,17 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="border-4s">
+        <div className="sborder-4 border-double flex flex-col gap-[32px] lg:gap-4 lg:flex-row lg:flex-wrap">
           {" "}
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`relative sborder-4 rounded-[10px] border-white/50  h-[200px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] mb-[32px]  ${
-                index % 2 === 0
-                  ? "sm:flex-row border-r-2 tab:border-r-4 "
-                  : "sm:flex-row-reverse border-l-2 tab:border-l-4 "
-              }`}
+              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[340px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]   smb-[32px]  lg:border-white lg:w-[48%]${
+                [1, 4, 5].includes(project.id) ? "lg:w-[60%]" : "lg:w-[48%]"
+              }   ${
+                [2, 3, 6].includes(project.id) ? "lg:w-[36%]" : "lg:w-[48%]"
+              }   
+              `}
               data-aoss={index % 2 === 0 ? "fade-right" : "fade-left"} // AOS animations
               data-aoss-duration="900"
             >
@@ -87,11 +90,11 @@ const Services = () => {
                 loop
                 autoPlay
                 muted
-                className="w-full h-full object-cover shadow-2xl dark:shadow-gray-600 hover:cursor-pointer rounded-[10px]"
+                className="w-full h-full object-cover shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none hover:cursor-pointer rounded-[10px]"
               />
 
               {/* Text */}
-              <div className="sborder-4 absolute w-full top-2 interFont px-2">
+              <div className="sborder-4 absolute w-full top-2 interFont px-2 lg:px-4">
                 <h3 className="text-[16px] sborder-4 font-medium mix-blend-difference">
                   {project.title}
                 </h3>

@@ -70,7 +70,7 @@ const RecentWorks = () => {
           >
             Recent Works
           </h2>
-          <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center lg:mr-4 xxxl:mr-8">
+          <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center ">
             <h3 className="interFont text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]">
               ALL RECENT WORKS
             </h3>
@@ -88,7 +88,7 @@ const RecentWorks = () => {
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[340px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]  smb-[32px]  lg:border-white lg:w-[48%]  ${
+              className={`relative sborder-8 rounded-[10px] border-white/50  h-[200px] lg:h-auto lg:max-h-[310px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]  smb-[32px]  lg:border-white lg:w-[48%] grow  ${
                 index % 2 === 0
                   ? "sm:flex-row border-r-2 tab:border-r-4 lg:border-0 "
                   : "sm:flex-row-reverse border-l-2 tab:border-l-4 lg:border-0 "

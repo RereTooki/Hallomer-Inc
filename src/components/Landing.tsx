@@ -24,11 +24,15 @@ const Landing = () => {
         {/* <h1 className="sborder-4 font-tusker text-[18vw] xmd:stext-[16vw] swhitespace-nowrap transition ease-in-out duration-500 delay-10 cursor-pointer shover:scale-[1.04] w-full text-center border-white/20 select-none ">
           EDRISS HALLOMER
         </h1> */}
-        <p className="interFont sborder-4 text-sm text-center relative bottom-[5vw] ">
+        {/* <p className="interFont sborder-4 text-sm text-center relative bottom-[5vw] ">
           A dynamic and multifaceted professional with over six years of
           experience spanning various roles including Event Project Management,
           Strategic Planning, Disk Jockeying, Sales Representative, Managing
           Director, Creative Director, and Front Desk Assistant.
+        </p> */}
+        <p className="interFont sborder-4 text-sm text-center relative bottom-[5vw] ">
+          Yoo, ignore this first part, still has issues. Everything else should
+          be calm. Lmk.
         </p>
       </div>
       <div className="relative selection:bg-white selection:text-[#111]">

@@ -34,84 +34,103 @@ const handleLinkedInClick = () => {
 const Connect = () => {
   return (
     <>
-      <div className="sborder-4 border-white/50 text-white flex flex-col items-center pb-14 px-4 gap-8 selection:bg-white selection:text-[#111]">
-        <h2 className="font-tusker text-[32px] sborder-4 w-[64%] text-center">
+      <div className="sborder-4 border-white/50 text-white flex flex-col items-center pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-0 lg:px-12">
+        <h2 className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] sborder-4 w-[64%] text-center tracking-wide">
           WE WOULD LOVE TO HEAR MORE FROM YOU. <br></br>LET'S COLLABORATE!
         </h2>
-        <div className="sorder-4 gap-4 flex flex-col w-full interFont">
-          <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
-            <div className="flex gap-2 items-center">
-              <SiGmail className="border-[1px] rounded-full p-2 w-[16px]" />
-              <p className="text-sm" onClick={handleEmailClick}>
-                {email}
-              </p>
+        <div className="sborder-4 gap-4 flex flex-col w-full interFont">
+          <div className="gap-4 flex flex-col w-full lg:flex-row lg:flex-wrap sborder-2">
+            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+              <div className="flex gap-2 items-center">
+                <SiGmail className="border-[1px] rounded-full p-2 w-[16px]" />
+                <p
+                  className="text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]"
+                  onClick={handleEmailClick}
+                >
+                  {email}
+                </p>
+              </div>
+              <div className="sborder-2 w-[16px] h-[16px] ">
+                <img
+                  className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
+                  src={arrUP}
+                  alt="up arrow"
+                />
+              </div>
             </div>
-            <div className="sborder-2 w-[16px] h-[16px] ">
-              <img
-                className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
-                src={arrUP}
-                alt="up arrow"
-              />
-            </div>
-          </div>
-          <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
-            <div className="flex gap-2 items-center">
-              <FaWhatsapp className="border-[1px] rounded-full p-2 w-[16px]" />
-              <p className="text-sm" onClick={handleWhatsAppClick}>
-                {phoneNumber}
-              </p>
-            </div>
-            <div className="sborder-2 w-[16px] h-[16px] ">
-              <img
-                className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
-                src={arrUP}
-                alt="up arrow"
-              />
-            </div>
-          </div>
-          <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
-            <div className="flex gap-2 items-center">
-              <SiInstagram className="border-[1px] rounded-full p-2 w-[16px]" />
-              <p className="text-sm" onClick={handleInstagramClick}>
-                Instagram
-              </p>
-            </div>
-            <div className="sborder-2 w-[16px] h-[16px] ">
-              <img
-                className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
-                src={arrUP}
-                alt="up arrow"
-              />
+            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+              <div className="flex gap-2 items-center">
+                <FaWhatsapp className="border-[1px] rounded-full p-2 w-[16px]" />
+                <p
+                  className="text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]"
+                  onClick={handleWhatsAppClick}
+                >
+                  {phoneNumber}
+                </p>
+              </div>
+              <div className="sborder-2 w-[16px] h-[16px] ">
+                <img
+                  className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
+                  src={arrUP}
+                  alt="up arrow"
+                />
+              </div>
             </div>
           </div>
-          <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
-            <div className="flex gap-2 items-center">
-              <SiYoutube className="border-[1px] rounded-full p-2 w-[16px]" />
-              <p className="text-sm" onClick={handleYoutubeClick}>
-                Youtube
-              </p>
+          <div className="gap-4 flex flex-col w-full  lg:flex-row lg:flex-wrap">
+            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+              <div className="flex gap-2 items-center">
+                <SiInstagram className="border-[1px] rounded-full p-2 w-[16px]" />
+                <p
+                  className="text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]"
+                  onClick={handleInstagramClick}
+                >
+                  Instagram
+                </p>
+              </div>
+              <div className="sborder-2 w-[16px] h-[16px] ">
+                <img
+                  className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
+                  src={arrUP}
+                  alt="up arrow"
+                />
+              </div>
             </div>
-            <div className="sborder-2 w-[16px] h-[16px] ">
-              <img
-                className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
-                src={arrUP}
-                alt="up arrow"
-              />
+            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+              <div className="flex gap-2 items-center">
+                <SiYoutube className="border-[1px] rounded-full p-2 w-[16px]" />
+                <p
+                  className="text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]"
+                  onClick={handleYoutubeClick}
+                >
+                  Youtube
+                </p>
+              </div>
+              <div className="sborder-2 w-[16px] h-[16px] ">
+                <img
+                  className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
+                  src={arrUP}
+                  alt="up arrow"
+                />
+              </div>
             </div>
-          </div>
-          <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]">
-            <div className="flex gap-2 items-center">
-              <FaLinkedin className="border-[1px] rounded-full p-2 w-[16px]" />
-              <p className="text-sm" onClick={handleLinkedInClick}>
-                LinkedIn
-              </p>
-            </div>
-            <div className="sborder-2 w-[16px] h-[16px] ">
-              <img
-                className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
-                src={arrUP}
-                alt="up arrow"
-              />
+            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+              <div className="flex gap-2 items-center">
+                <FaLinkedin className="border-[1px] rounded-full p-2 w-[16px]" />
+                <p
+                  className="text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]"
+                  onClick={handleLinkedInClick}
+                >
+                  LinkedIn
+                </p>
+              </div>
+              <div className="sborder-2 w-[16px] h-[16px] ">
+                <img
+                  className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
+                  src={arrUP}
+                  alt="up arrow"
+                />
+              </div>
             </div>
           </div>
         </div>

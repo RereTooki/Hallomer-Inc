@@ -15,16 +15,16 @@ const AboutMe = () => {
         <div className=" flex flex-col lg:flex-row lg:gap-6 gap-8 selection:bg-white selection:text-[#111]">
           <h2
             className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 lg:whitespace-nowrap w-fit"
-            data-aoss="fade-down"
-            data-aoss-duration="1200"
+            data-aos="fade-down"
+            data-aos-duration="1200"
           >
             About Me
           </h2>
           <div className="flex flex-col lg:gap-6 gap-8 selection:bg-white selection:text-[#111] text-[12px] mxl:text-[16px] xxxl:text-[18px] ">
             <p
               className="interFont text-justify"
-              data-aoss="zoom-in"
-              data-aoss-duration="1200"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               Hi, I'm Idris Oladeinde Adeyemi, also known as Edriss Hallomer! 🎧
               With over six years of dynamic experience in the entertainment and
@@ -34,8 +34,8 @@ const AboutMe = () => {
             </p>
             <p
               className="interFont text-justify"
-              data-aoss="zoom-in"
-              data-aoss-duration="1200"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               As the Managing Director of Bangees Café, I've led a team of 20+,
               improved operations, and increased our revenue by 25%. Outside the
@@ -47,8 +47,8 @@ const AboutMe = () => {
             </p>
             <p
               className="interFont text-justify"
-              data-aoss="zoom-in"
-              data-aoss-duration="1200"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               Beyond spinning tracks, I’m also skilled in event project
               management, strategic planning, and creative direction. My
@@ -58,8 +58,8 @@ const AboutMe = () => {
             </p>
             <p
               className="interFont text-justify"
-              data-aoss="zoom-in"
-              data-aoss-duration="1200"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               Driven by passion, creativity, and strategic thinking, I’m here to
               elevate your events with unmatched energy and professionalism.
@@ -71,8 +71,8 @@ const AboutMe = () => {
           <div className="sborder-4  flex gap-[8px] lg:gap-4">
             <div
               className="sborder-4 rounded-lg lg:rounded-none border-white/50  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2  max-w-[159pxs] h-[159px] lg:w-auto lg:h-auto lg:max-h-[360px] lg:relative top-1/2"
-              data-aoss="fade-left"
-              data-aoss-duration="1200"
+              data-aos="fade-left"
+              data-aos-duration="1200"
             >
               <picture>
                 {/* Image for smaller screens */}
@@ -94,8 +94,8 @@ const AboutMe = () => {
             </div>
             <div
               className="sborder-4 rounded-lg lg:rounded-none border-white/50  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px] lg:w-auto lg:h-auto lg:max-h-[360px] "
-              data-aoss="fade-right"
-              data-aoss-duration="1200"
+              data-aos="fade-right"
+              data-aos-duration="1200"
             >
               <picture>
                 {/* Image for smaller screens */}
@@ -118,8 +118,8 @@ const AboutMe = () => {
           <div className="sborder-4 flex lg:flex-row-reverse gap-[8px] lg:gap-4">
             <div
               className="sborder-4 rounded-lg lg:rounded-none border-white/50  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px] lg:w-auto lg:h-auto lg:max-h-[360px]"
-              data-aoss="fade-up"
-              data-aoss-duration="1200"
+              data-aos="fade-up"
+              data-aos-duration="1200"
             >
               <picture>
                 {/* Image for smaller screens */}
@@ -140,8 +140,8 @@ const AboutMe = () => {
             </div>
             <div
               className="sborder-4 rounded-lg lg:rounded-none border-white/50  transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] p-0  w-1/2 max-w-[159pxs] h-[159px] lg:w-auto lg:h-auto lg:max-h-[360px]  lg:relative top-1/2"
-              data-aoss="fade-down"
-              data-aoss-duration="1200"
+              data-aos="fade-down"
+              data-aos-duration="1200"
             >
               <picture>
                 {/* Image for smaller screens */}

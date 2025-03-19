@@ -6,7 +6,11 @@ const Footer = () => {
     <>
       {" "}
       <div className="sborder-4 border-white/50 text-white flex flex-col items-center pb-4 px-4 gap-14 selection:bg-white selection:text-[#111] lg:px-12">
-        <div className="sborder-4 w-full transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]">
+        <div
+          className="sborder-4 w-full transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]"
+          data-aos="fade-down"
+          data-aos-duration="1200"
+        >
           <img
             className="w-full h-[85px] lg:h-auto drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)]"
             src={logo}

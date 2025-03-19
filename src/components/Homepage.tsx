@@ -11,7 +11,7 @@ import Footer from "./Footer";
 const Homepage = () => {
   return (
     <>
-      <div className="bg-[#111] border-4s">
+      <div className="bg-[#111] border-4s overflow-x-hidden">
         <NavBar />
         <Landing />
         <AboutMe />
@@ -22,8 +22,8 @@ const Homepage = () => {
       </div>
       {/* <p
         className="text-6xl font-bold interFont underline text-center"
-        data-aoss="zoom-in"
-        data-aoss-duration="500"
+        data-aos="zoom-in"
+        data-aos-duration="500"
       >
         ssss rere
       </p> */}

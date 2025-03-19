@@ -65,16 +65,28 @@ const RecentWorks = () => {
         <div className="flex justify-between sborder-4 items-end">
           <h2
             className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] sborder-4 w-fit"
-            data-aoss="fade-down"
-            data-aoss-duration="1200"
+            data-aos="fade-down"
+            data-aos-duration="1200"
           >
             Recent Works
           </h2>
-          <div className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center ">
-            <h3 className="interFont text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]">
+          <div
+            className="flex gap-2 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] border-b-[1px] items-center "
+            data-aos="fade-left"
+            data-aos-duration="1200"
+          >
+            <h3
+              className="interFont text-[12px] lg:text-[14px] mxl:text-[16px] xxxl:text-[18px]"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               ALL RECENT WORKS
             </h3>
-            <div className="sborder-4 w-[9px] h-[9px] ">
+            <div
+              className="sborder-4 w-[9px] h-[9px] "
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img
                 className="w-full h-full drop-shadow-[3px_6px_5px_rgba(0,0,0,0.25)] max-h-[38px]"
                 src={arrUP}
@@ -93,8 +105,8 @@ const RecentWorks = () => {
                   ? "sm:flex-row border-r-2 tab:border-r-4 lg:border-0 "
                   : "sm:flex-row-reverse border-l-2 tab:border-l-4 lg:border-0 "
               }`}
-              data-aoss={index % 2 === 0 ? "fade-right" : "fade-left"} // AOS animations
-              data-aoss-duration="900"
+              data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} // AOS animations
+              data-aos-duration="900"
             >
               {/* Video */}
 

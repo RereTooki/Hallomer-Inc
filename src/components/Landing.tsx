@@ -35,7 +35,7 @@ const Landing = () => {
           be calm. Lmk.
         </p>
       </div>
-      <div className="relative selection:bg-white selection:text-[#111]">
+      <div className="relative selection:bg-white selection:text-[#111] w3-animate-bottom">
         <div className="sborder-4 text-white absolute bottom-10 px-4 w-full flex justify-between interFont items-center">
           <div className="sborder-2 flex flex-col text-[12px] transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04]">
             <p>Get in touch at</p>

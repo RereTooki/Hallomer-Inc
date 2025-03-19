@@ -35,12 +35,20 @@ const Connect = () => {
   return (
     <>
       <div className="sborder-4 border-white/50 text-white flex flex-col items-center pb-14 px-4 gap-8 selection:bg-white selection:text-[#111] lg:pt-0 lg:px-12">
-        <h2 className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] sborder-4 w-[64%] text-center tracking-wide">
+        <h2
+          className="font-tusker text-[32px] lg:text-[64px] mxl:text-[84px] xxxl:text-[100px] sborder-4 w-[64%] text-center tracking-wide"
+          data-aos="fade-down"
+          data-aos-duration="1200"
+        >
           WE WOULD LOVE TO HEAR MORE FROM YOU. <br></br>LET'S COLLABORATE!
         </h2>
         <div className="sborder-4 gap-4 flex flex-col w-full interFont">
           <div className="gap-4 flex flex-col w-full lg:flex-row lg:flex-wrap sborder-2">
-            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+            <div
+              className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow"
+              data-aos="fade-left"
+              data-aos-duration="1200"
+            >
               <div className="flex gap-2 items-center">
                 <SiGmail className="border-[1px] rounded-full p-2 w-[16px]" />
                 <p
@@ -58,7 +66,11 @@ const Connect = () => {
                 />
               </div>
             </div>
-            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+            <div
+              className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow"
+              data-aos="fade-left"
+              data-aos-duration="1200"
+            >
               <div className="flex gap-2 items-center">
                 <FaWhatsapp className="border-[1px] rounded-full p-2 w-[16px]" />
                 <p
@@ -78,7 +90,11 @@ const Connect = () => {
             </div>
           </div>
           <div className="gap-4 flex flex-col w-full  lg:flex-row lg:flex-wrap">
-            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+            <div
+              className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+            >
               <div className="flex gap-2 items-center">
                 <SiInstagram className="border-[1px] rounded-full p-2 w-[16px]" />
                 <p
@@ -96,7 +112,11 @@ const Connect = () => {
                 />
               </div>
             </div>
-            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+            <div
+              className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+            >
               <div className="flex gap-2 items-center">
                 <SiYoutube className="border-[1px] rounded-full p-2 w-[16px]" />
                 <p
@@ -114,7 +134,11 @@ const Connect = () => {
                 />
               </div>
             </div>
-            <div className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow">
+            <div
+              className="p-4 bg-[#151515] flex justify-between items-center rounded-sm r shadow-2xl dark:shadow-gray-600 lg:dark:shadow-none transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02] grow"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+            >
               <div className="flex gap-2 items-center">
                 <FaLinkedin className="border-[1px] rounded-full p-2 w-[16px]" />
                 <p
